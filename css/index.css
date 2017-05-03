@@ -1,0 +1,18 @@
+#index{
+  max-width: 100%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+h1{
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#self_portrait{
+  max-width: 100%;
+  position: relative;
+}
+.col-md-4{
+  margin-top: 0%;
+  padding: 250px 0 50px 0;
+}

@@ -1,0 +1,188 @@
+html{
+	position: relative;
+	max-width: 100%;
+	min-height: 100%;
+}
+body{
+	font-family: 'Titillium Web', sans-serif;
+	background-color: #f0f0f0;
+	margin-bottom: 100px;
+}
+a{
+	text-decoration: none;
+	color: #f0a8c0;
+}
+p a:hover{
+	color: #a1a1a1;
+}
+.container{
+	max-height: 100%;
+	position: relative;
+}
+
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: #e5487c;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+.footer a:link, .footer a:visited{
+	color: #000;
+}
+.footer a:hover, .footer a:active{
+	color: #a1a1a1;
+}
+.footer_copy{
+	font-size: 0.9em;
+}
+/* NAVIGATION BAR */
+header{
+	margin-top: 2%;
+	width: 100%;
+}
+nav img{
+	padding-top: 8%;
+}
+nav ul{
+	position: relative;
+	list-style: none;
+	display: table;
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+nav ul li {
+	display: inline-block;
+	vertical-align: middle;
+}
+nav ul li a:link{
+	text-decoration: none;
+}
+nav ul li a:active{
+
+}
+nav ul li a:hover{
+	color: #000;
+}
+nav ul li a{
+	padding: 0.3em 1em;
+}
+nav ul li a{
+	color: #000;
+	font-size: 1.5em;
+}
+/* ANIMATED UNDERLINE */
+.sliding-middle {
+	display: inline-block;;
+	position: relative;
+	padding-bottom: -2px;
+}
+.sliding-middle:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle:hover:after {
+	width: 60%;
+	background: #e5487c;
+}
+.sliding-middle:active:after{
+	width: 60%;
+	background: #e5487c;
+	transition: none;
+}
+#portfolio{
+	padding-top: 2%;
+}
+/* GENERAL DISPLAY SIZING */
+h1,h2,h3,h4,h5,h6{
+	color: #e5487c;
+}
+h1{
+	font-size: 3em;
+}
+h2{
+	font-size: 2.5em;
+}
+h3{
+	font-size: 2em;
+}
+h4{
+	font-size: 1.5em;
+}
+h5{
+	font-size: 1em;
+}
+p{
+	font-size: 1em;
+	line-height: 1.4em;
+}
+/* BUTTONS */
+button{
+	background-color: #e5487c;
+	color: #fff;
+	padding: .5em 3em;
+	border: none;
+	font-size: 1.2em;
+}
+button:hover{
+	color: #000;
+}
+/* SELECTION */
+::-moz-selection { /* dev for Firefox */
+    color: #fff;
+    background: #a1a1a1;
+}
+::selection {
+    color: #fff;
+    background: #a1a1a1;
+}
+img{
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* RESPONSIVE NAV */
+@media screen and (max-width: 700px) {
+	nav div ul li:not(:nth-child(3)){
+		position: relative;
+		margin-bottom: 0;
+		text-align: center;
+		margin-top: 80px;
+		padding: 0;
+	}
+	nav div ul li{
+		padding: 0;
+		float: left;
+		display: block;
+	}
+	#logo{
+		top: 0;
+		left: 0;
+		position: absolute;
+		float: left;
+		margin: auto;
+	}
+	nav img{
+		padding-top: 0px;
+	}
+}
+/* BOOTSTRAPPY THINGS */
+.firstRow{
+  margin-top: 3%;
+}
+/* IMAGES */
+.img-responsive{
+	width: 100%;
+	height: 100%;
+}

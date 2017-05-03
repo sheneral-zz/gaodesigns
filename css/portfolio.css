@@ -1,0 +1,46 @@
+/* OVERLAY */
+.overlay{
+  color: #fff;
+  text-shadow: 1px 1px 4px #000;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 150px;
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+}
+.overlay:hover{
+  opacity: 1;
+}
+a .overlay{
+  transition: 1s all;
+}
+a img{
+  background-size: cover;
+}
+/* BOOTSTRAPPY THINGS */
+.col-md-3, .col-md-5{
+	margin-top: 2%;
+  padding: 0px;
+}
+.img-responsive{
+  margin-top: 2%;
+}
+/* OTHER STUFF */
+.description{
+  text-align: center;
+}
+.lastRow{
+  margin-bottom: 5%;
+}
+
+.credit{
+  text-align: center;
+  font-size: 0.8em;
+}
+/* IMAGES */
+.screenshot{
+  border: 1px solid #787878;
+}

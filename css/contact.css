@@ -1,0 +1,36 @@
+.required{
+  background-color: #f0f0f0;
+  border: 1px solid #e5487c;
+  padding: .5em 2em .5em .5em;
+  margin: 1em 0;
+  width: 200px;
+}
+.message{
+  background-color: #f0f0f0;
+  border: 1px solid #e5487c;
+  margin: 1em 0;
+  width: 500px;
+  padding: .5em 2em 20em .5em;
+}
+#button a, button a:hover{
+  color: #fff;
+}
+#button{
+	background-color: #e5487c;
+	color: #fff;
+	padding: .5em 3em;
+	border: none;
+	font-size: 1.2em;
+}
+#button:hover{
+  background-color: #a1a1a1;
+}
+.social{
+  padding: 0px 0 50px 20px;
+}
+textarea{
+  max-width: 100%;
+}
+.description{
+  text-align: center;
+}

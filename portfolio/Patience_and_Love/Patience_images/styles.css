@@ -1,0 +1,147 @@
+/* Styles to make skrollable work. Copy these to your file. */
+   .skrollable {
+      position:fixed;
+      z-index:100;
+   }
+   .skrollr-mobile .skrollable {
+      position:absolute;
+   }
+   .skrollable .skrollable {
+      position:absolute;
+   }
+   
+   .skrollable .skrollable .skrollable {
+      position:static;
+   }
+/* End skrollable styles */
+   
+body{
+	margin: 0;
+}
+/* -------------- image manipulation ---------------*/
+img{
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	margin: auto;
+}
+.top{
+	z-index: 100;
+}
+.middle{
+	z-index: 50;
+}
+.bg{
+	z-index: -1;
+}
+.soil{
+	margin-top: -120px;
+}
+#soil2{
+	margin-top: -120px;
+	transform:scale(-1,1);
+}
+#boysitting{
+	transform: scale(0.8,0.8);
+}
+#scene5girl{
+	transform: scale(0.7);
+}
+#scene7soil{
+	transform: rotate(340deg);
+}
+#scene7girl{
+	transform: scale(-1,1);
+}
+#scene8girl, #scene8boy{
+	transform: scale(0.5);
+}
+/* ---------------- sizing ------------------- */
+.content{
+	width: 80%;
+	margin: auto;
+}
+.scene{
+	height: 100%;
+	width: 100%;
+}
+#scene2 .content{
+	padding-top: 50px;
+}
+/* ------------- typography ------------------ */
+body {
+	font-size: 16px;
+}
+.text{
+	font-family: "Philosopher", serif;
+	font-size: 45px;
+}
+#title{
+	font-family: "Great Vibes", cursive;
+	font-size: 1000%;
+	text-align: center;
+	padding-top: 25%;
+	margin-top: 0;
+	margin-bottom: 0.3%;
+}
+#authors{
+	font-family: "Philosopher", sans-serif;
+	margin-top: 0px;
+	font-size: 30px;
+	text-align: right;
+	padding-right: 0;
+}
+#end{
+	font-family: "Great Vibes", cursive;
+	font-size: 2000%;
+	padding-right: 70px; /* for safari */
+}
+.blue{
+	color: #2a2885;
+}
+.pink{
+	color: #c53b7c;
+}
+#girlthought, #girldialogue{
+	font-family: "Great Vibes", cursive;
+	font-size: 80px;
+	color: #2a2885;
+	padding: 0 20px; /* for safari */
+}
+#boydialogue{
+	font-family: "Great Vibes", cursive;
+	font-size: 80px;
+	color: #c53b7c;
+	padding-right: 20px; /* for safari */
+}
+/* ----------- background colors ------------- */
+#scene1, #scene13{
+	background-color: #f6e0ea;
+}
+.scene{
+	background-color: #fffbf1;
+}
+
+/* ---------- responsive typography ---------
+@media all and (min-width: 500px) {
+	#title {font-size: 100%;}
+	#authors {font-size: 110%;}
+	p.text{font-size: 70%; line height: 70%;}
+}
+@media all and (min-width: 501px) and (max-width: 800px) {
+	#title {font-size: 550%;}
+	#authors {font-size: 70%;}
+	p.text{font-size: 90%; line height: 90%;}
+}
+@media all and (min-width: 801px) and (max-width: 1000px) {
+	#title {font-size: 850%;}
+	#authors {font-size: 90%;}
+	p.text{font-size: 150%; line height: 150%;}
+}
+@media all and (min-width: 1001px) and (max-width: 2200px) {
+	#title { font-size:1000%;}
+	#authors{ font-size: 200%;}
+	p.text{font-size: 250%; line height: 250%;}
+	.wrap {max-width:770px;}
+}
+*/

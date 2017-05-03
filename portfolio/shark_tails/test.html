@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang=’en’>
+    <meta charset="UTF-8">
+
+    <head>
+        <title>Hackathon</title>
+    </head>
+
+    <body>
+    	<div id="image">
+    		<img style="width:70%; height: 50%;" src="simmons.jpg">
+    	</div>
+    	<div id="text">
+    		<p>Hi friends</p>
+    	</div>
+    	<div id="button1">
+    		<button onclick="myFunction()">Hello</button>
+    	</div>
+    	<div id="button2">
+    		<button onclick="myFunction()">Hi</button>
+    	</div>
+    	<div id="button3">
+    		<button onclick="myFunction()">Bloop</button>
+    	</div>
+        <script type="text/javascript">
+        	function myFunction() {
+			    document.getElementById("text").innerHTML = "<p>Hello World</p>";
+			    document.getElementById("image").innerHTML = "<img src='http://white-shark-diving.com/wp-content/uploads/2015/07/meet-the-sharks.jpg' style='width:100%; height: 100px;'>"
+			}
+        </script>
+    </body>
+</html>
