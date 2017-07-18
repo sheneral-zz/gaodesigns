@@ -7,6 +7,7 @@ body{
 	font-family: 'Titillium Web', sans-serif;
 	background-color: #f0f0f0;
 	margin-bottom: 100px;
+	font-size: 16px;
 }
 a{
 	text-decoration: none;
@@ -41,6 +42,7 @@ p a:hover{
 header{
 	margin-top: 2%;
 	width: 100%;
+	font-size: 16px;
 }
 nav img{
 	padding-top: 8%;
@@ -72,7 +74,7 @@ nav ul li a{
 }
 nav ul li a{
 	color: #000;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 /* ANIMATED UNDERLINE */
 .sliding-middle {
@@ -95,7 +97,7 @@ nav ul li a{
 }
 .sliding-middle:active:after{
 	width: 60%;
-	background: #e5487c;
+	background: #e5487c; #f0a8c0;
 	transition: none;
 }
 #portfolio{

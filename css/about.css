@@ -16,3 +16,8 @@
 .container{
   margin-top: 2%;
 }
+#hi{
+  padding-top: 0px;
+  color: #e5487c;
+  font-size: 2em;
+}

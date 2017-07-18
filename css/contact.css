@@ -20,7 +20,7 @@
 	color: #fff;
 	padding: .5em 3em;
 	border: none;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 #button:hover{
   background-color: #a1a1a1;
@@ -33,4 +33,7 @@ textarea{
 }
 .description{
   text-align: center;
+}
+.boxes{
+  margin-bottom: 10%;
 }
